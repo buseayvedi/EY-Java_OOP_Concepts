@@ -12,6 +12,7 @@ public class TestPersonObjects {
         Person person6 = new Person("Sevil","Turkish",44,'F');
 
         person4.name = "Fuat";
+        
         //person1.planet = "Mars";
         //Person.planet = "Mercury";
 
@@ -23,11 +24,11 @@ public class TestPersonObjects {
         System.out.println(person6);
 
         Person.printPlanetName();
+        
         person4.eat("Baklava");
         person3.drink("Ayran");
 
         person5.drink("Tea");
         person6.drink("Coffee");
-
     }
 }
