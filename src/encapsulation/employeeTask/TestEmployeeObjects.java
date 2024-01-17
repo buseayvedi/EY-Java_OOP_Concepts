@@ -1,4 +1,6 @@
-package encapsulation.encapsulation1;
+package encapsulation.employeeTask;
+
+import encapsulation.employeeTask.Employee;
 
 public class TestEmployeeObjects {
 

@@ -1,4 +1,4 @@
-package encapsulation.encapsulation1;
+package encapsulation.employeeTask;
 
 public class Employee {
     private String name;
