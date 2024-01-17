@@ -1,4 +1,4 @@
-package encapsulation.encapsulation1;
+package encapsulation.studentTask;
 
 public class Student {
 
