@@ -32,7 +32,6 @@ public class Person {
         this(name,language,age);
         this.gender = gender;
     }
-
     static {
         planet = "Earth";
         isHuman = true;
@@ -40,18 +39,15 @@ public class Person {
         numberOfHead = 1;
         numberOfWings = 0;
     }
-
     public static void printPlanetName(){
         System.out.println("Planet :"+planet);
     }
     public void eat(String food){
         System.out.println(name+" is eating "+food);
     }
-
     public void drink(String drink){
         System.out.println(name+" is drinking "+drink);
     }
-
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
