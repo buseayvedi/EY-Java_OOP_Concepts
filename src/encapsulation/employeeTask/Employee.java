@@ -6,18 +6,15 @@ public class Employee {
     private String jobTitle;
     private double salary;
 
-
     public Employee(String name, int age, String jobTitle, double salary) {
         setName(name);
         setAge(age);
         setJobTitle(jobTitle);
         setSalary(salary);
     }
-
     public double getSalary() { // read
         return salary;
     }
-
     public void setSalary(double salary) { // write
         if(salary < 0){
             System.err.println("Salary can't be negative");
@@ -25,14 +22,12 @@ public class Employee {
         }
         this.salary = salary;
     }
-
     public String getName() {
         if(name == null){
             name = "Unknown";
         }
         return name;
     }
-
     public void setName(String name) {
         if(name.trim().isEmpty()){
             System.err.println("Name can't be empty or blank");
@@ -40,11 +35,9 @@ public class Employee {
         }
         this.name = name;
     }
-
     public int getAge() {
         return age;
     }
-
     public void setAge(int age) {
         if(age < 16){
             System.err.println("Age can't be less than 16");
@@ -52,11 +45,9 @@ public class Employee {
         }
         this.age = age;
     }
-
     public String getJobTitle() {
         return jobTitle;
     }
-
     public void setJobTitle(String jobTitle) {
         if(jobTitle.trim().isEmpty()){
             System.err.println("Job title can't be blank or empty");
@@ -64,7 +55,6 @@ public class Employee {
         }
         this.jobTitle = jobTitle;
     }
-
     public String toString() {
         return "Employee{" +
                 "name='" + getName() + '\'' +
