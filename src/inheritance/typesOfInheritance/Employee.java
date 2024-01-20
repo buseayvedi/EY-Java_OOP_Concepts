@@ -1,4 +1,4 @@
-package inheritance.phoneTask;
+package inheritance.typesOfInheritance;
 
 import java.time.LocalDate;
 
