@@ -1,4 +1,4 @@
-package inheritance.VehicleTask;
+package inheritance.vehicleTask;
 
 public class Yacht extends Vehicle{
 
