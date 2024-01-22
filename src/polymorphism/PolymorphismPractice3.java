@@ -1,4 +1,4 @@
-package polymorphism.trasportationTask;
+package polymorphism;
 
 import inheritance.phoneTask.Iphone;
 import inheritance.phoneTask.Nokia;
