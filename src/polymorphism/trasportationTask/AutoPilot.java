@@ -1,4 +1,6 @@
 package polymorphism.trasportationTask;
 
-public interface AutoPilot {
+public interface AutoPilot extends AutoPark{
+
+    void selfDrive();
 }
