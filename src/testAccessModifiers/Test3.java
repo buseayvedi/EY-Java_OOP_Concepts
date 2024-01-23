@@ -1,6 +1,6 @@
 package testAccessModifiers;
 
-import lesson05_inheritance.ProtectedAccessModifier;
+import lesson05_Inheritance.ProtectedAccessModifier;
 
 public class Test3 extends ProtectedAccessModifier {
 
