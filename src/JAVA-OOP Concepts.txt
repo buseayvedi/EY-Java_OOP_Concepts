@@ -111,7 +111,7 @@
         
         ***java does not support multiple inheritance in case of class, but by using** interface **it can achieve multiple inheritance.***
         
-- Superclass's Constructor
+- Superclass's constructor
     - the ***superclass constructor always executes before the subclass constructor***.
     - The ***super()*** keyword refers to an object’s superclass.
     - If a subclass constructor does not explicitly call a superclass constructor, Java will automatically call the ***superclass’s default constructor, or no-arg constructor***, just before the code in the subclass’s constructor executes.
@@ -386,7 +386,7 @@
     - ***Access modifiers: private, default, protected***
     - ***Instance variables & methods***
     - ***Final methods***
-    - ***Constructor***
+    - ***constructor***
     - ***Blocks (static or instance)***
 - ***Implicitly have:***
     - ***Fields (variables) : public, static, final***
