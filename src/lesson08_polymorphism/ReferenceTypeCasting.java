@@ -5,9 +5,9 @@ import lesson05_inheritance.animalTask.Animal;
 import lesson05_inheritance.animalTask.Dog;
 import lesson05_inheritance.phoneTask.Nokia;
 import lesson05_inheritance.phoneTask.Phone;
-import lesson08_polymorphism.trasportationTask.AutoPilot;
-import lesson08_polymorphism.trasportationTask.Electric;
-import lesson08_polymorphism.trasportationTask.Tesla;
+import lesson07_abstraction.trasportationTask.AutoPilot;
+import lesson07_abstraction.trasportationTask.Electric;
+import lesson07_abstraction.trasportationTask.Tesla;
 
 public class ReferenceTypeCasting {
 

@@ -1,4 +1,4 @@
-package lesson08_polymorphism.trasportationTask;
+package lesson07_abstraction.trasportationTask;
 
 import lesson07_abstraction.animalTask.Flyable;
 

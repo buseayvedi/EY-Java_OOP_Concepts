@@ -1,7 +1,7 @@
 package lesson08_polymorphism;
 
 import lesson07_abstraction.animalTask.*;
-import lesson08_polymorphism.trasportationTask.*;
+import lesson07_abstraction.trasportationTask.*;
 
 public class PolymorphismPractice {
 
