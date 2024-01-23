@@ -1,6 +1,6 @@
 package testAccessModifiers;
 
-import static lesson03_accessModifiers.Data.*;
+import static accessModifiers.Data.*;
 
 public class Test2 {
 

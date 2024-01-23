@@ -1,7 +1,7 @@
 package testAccessModifiers;
 
-import lesson03_accessModifiers.AccessModifiers;
-import lesson03_accessModifiers.Data;
+import accessModifiers.AccessModifiers;
+import accessModifiers.Data;
 
 public class Test {
 
