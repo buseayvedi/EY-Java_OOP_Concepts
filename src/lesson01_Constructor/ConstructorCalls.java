@@ -1,4 +1,4 @@
-package lesson02_Statics;
+package lesson01_Constructor;
 
 public class ConstructorCalls {
 

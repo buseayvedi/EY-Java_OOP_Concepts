@@ -1,4 +1,6 @@
-package lesson03_AccessModifiers;
+package lesson02_Statics;
+
+import lesson02_Statics.Car;
 
 public class TestNestedClassObjects {
 

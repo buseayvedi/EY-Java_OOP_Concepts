@@ -1,4 +1,7 @@
-package lesson02_Statics;
+package lesson01_Constructor;
+
+import lesson01_Constructor.Student;
+import lesson01_Constructor.StudentsGroups;
 
 public class TestStudentAndStudentGroupsObjects {
 

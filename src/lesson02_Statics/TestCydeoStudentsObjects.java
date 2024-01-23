@@ -1,4 +1,6 @@
-package lesson03_AccessModifiers;
+package lesson02_Statics;
+
+import lesson02_Statics.CydeoStudents;
 
 public class TestCydeoStudentsObjects {
 

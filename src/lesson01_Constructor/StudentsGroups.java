@@ -1,4 +1,6 @@
-package lesson02_Statics;
+package lesson01_Constructor;
+
+import lesson01_Constructor.Student;
 
 import java.util.ArrayList;
 import java.util.Arrays;

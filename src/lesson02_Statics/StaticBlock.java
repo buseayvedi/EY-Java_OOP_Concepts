@@ -1,4 +1,4 @@
-package lesson03_AccessModifiers;
+package lesson02_Statics;
 
 public class StaticBlock {
 
