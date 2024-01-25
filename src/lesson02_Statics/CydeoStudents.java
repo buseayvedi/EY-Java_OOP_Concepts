@@ -6,19 +6,18 @@ public class CydeoStudents {
     public int age;
     public char gender;
 
-    public static String schoolName = "Cydeo";
-    public static String secretCode = "Wooden Spoon";
+    public static String schoolName;
+    public static String secretCode;
 
     public CydeoStudents(String name, int age, char gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
-//    static {
-//        schoolName = "Cydeo";
-//        secretCode = "Wooden Spoon";
-//    }
-
+    static {
+        schoolName = "Cydeo";
+        secretCode = "Wooden Spoon"; 
+    }
     public String toString() {
         return "CydeoStudent{" +
                 "name='" + name + '\'' +
