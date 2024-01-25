@@ -6,8 +6,8 @@ public class CydeoStudents {
     public int age;
     public char gender;
 
-    public static String schoolName;
-    public static String secretCode;
+    public static String schoolName ;
+    public static String secretCode ;
 
     public CydeoStudents(String name, int age, char gender) {
         this.name = name;
