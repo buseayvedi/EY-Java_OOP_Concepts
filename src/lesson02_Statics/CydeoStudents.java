@@ -16,9 +16,8 @@ public class CydeoStudents {
     }
     static {
         schoolName = "Cydeo";
-        secretCode = "Wooden Spoon";
+        secretCode = "Wooden Spoon"; 
     }
-
     public String toString() {
         return "CydeoStudent{" +
                 "name='" + name + '\'' +
