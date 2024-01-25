@@ -7,13 +7,17 @@ public class CydeoStudents {
     public char gender;
 
     public static String schoolName = "Cydeo";
-    public static String secretCode ="Wooden Spoon";
+    public static String secretCode = "Wooden Spoon";
 
     public CydeoStudents(String name, int age, char gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
     }
+//    static {
+//        schoolName = "Cydeo";
+//        secretCode = "Wooden Spoon";
+//    }
 
     public String toString() {
         return "CydeoStudent{" +
