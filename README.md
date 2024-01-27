@@ -95,15 +95,9 @@
 - What are types of Inheritance?
     - ***Single Inheritance***: Subclasses inherit the features of one superclass.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fdafe057-fd17-4873-8e90-007bfcf7413e/Untitled.png)
-        
     - ***Multi-Level Inheritance:*** Subclass will be inheriting a SuperClass and as well as the subclass also act as the SuperClass to the other class.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9669bad6-41fe-42cc-9530-905903096880/Untitled.png)
-        
     - ***Hierarchical Inheritance:*** Once class serves as superclass for more than one sub class.
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/047aa866-cd79-4d07-9599-9e1ab6937196/Untitled.png)
         
     - ***Multiple Inheritance: Does JAVA support within classes? (PIQ)***
         - Java DOES NOT support multiple inheritance ***with classes***. One class cannot have more than one superclass. But it can implement more than one interface.
@@ -153,10 +147,7 @@
         
     - Private and final method cannot be overridden
     - Protected method can be overridden
-- Overloading vs. Overriding
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cbbed677-9b45-4769-82c9-1e6c8e40eb3d/Untitled.png)
-    
+
 - super keyword in Java
     
     The super keyword in java is a reference variable that is used to refer parent class objects. The keyword ***“super”*** is used with the concept of inheritance.
@@ -235,13 +226,6 @@
 - final class
     - When a class is declared with final keyword, it is called a final class. A final class ***cannot be extended (inherited).***
     - ***You cannot make a class immutable without making it final. (String class)***
-
-## Access Modifiers
-
-- Summary Table for access modifiers
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b36c7a37-2cb1-40e9-bee9-c25e72744131/Untitled.png)
-    
 
 ## Abstraction
 
@@ -359,14 +343,6 @@
     - Abstract methods must not provide a method body/implementation in the abstract class for which it is declared
     - Implementing an abstract method in a subclass follows the same rules for overriding a method
     - ***Variables cannot be abstract***
-- Example 1
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7ff79901-ea7b-427c-8a4b-9fdb3ff36c8b/Untitled.png)
-    
-- Example 2
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d5e558e-2361-4247-ad94-d4804570e283/Untitled.png)
-    
 
 ## Interfaces
 
@@ -391,8 +367,6 @@
     - The class provides the behaviors included in the interface
     - Interface Example
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1139464-0d7a-4432-99a3-59af1f93000c/Untitled.png)
-        
 - ***Can have: (what?)***
     - ***Access modifiers: public***
     - ***Constant Variables: final, static***
@@ -409,36 +383,22 @@
     - ***All methods : public***
     - ***Except static and default methods : abstract***
     - Since all data fields are public static final and all methods are public abstract
-    in an interface, Java allows these modifiers to be omitted. Therefore the following interface definitions are equivalent:
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/699f90d5-424e-4c07-8a39-0626108e5732/Untitled.png)
-        
-    
+    in an interface, Java allows these modifiers to be omitted.
+
 - Creating an Interface
     - An interface looks similar to a class, except the keyword ***interface*** is used instead of the keyword class
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/457b02b1-f50f-4d59-a91d-f68e1b76a116/Untitled.png)
         
 - Implementing Multiple Interfaces
     - Class can ***extend*** only one superclass, but java allows a class to implement multiple interfaces.
     - When a class implements multiple interfaces, it must ***provide the methods specified by all of them (all methods have to be overridden.***
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/435a48b1-bdd4-4e93-9218-6c520fb64c44/Untitled.png)
-    
 - Fields in Interface
     - An interface can contain field declarations, but all fields in an interface are ***treated as public, static and final***.
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/88f7b881-3096-4564-845e-8dcf84ff9483/Untitled.png)
-        
 - Implementing Interface
     - When you want a class to implement an interface, you use the ***implements***
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/851782ac-f745-411e-8dfb-ee29bca1e1de/Untitled.png)
-        
     - A class can ***extends another class and implements interface(s) same time***.
     - If a class both extend a class and implement an interface, extends should come first then implements keyword.
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76132d5a-5236-4b95-97ca-a167830625af/Untitled.png)
         
 - Default and Static Methods
     - *Beginning in Java 8*, interfaces can have *default* (different than access modifiers) and ***static***
@@ -452,10 +412,7 @@
     - How do you decide whether to use an interface or a class?
         - In general, a strong is-a relationship that clearly describes a parent-child relationship should be modeled using abstract classes.
         - A weak is-a relationship, also known as an is-kind-of relationship, indicates that an object possesses a certain property. A weak is-a relationship can be modeled using interfaces.
-    - Differences of both in a single table
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4bec36a0-6e08-4d45-b96e-80f908be48ad/Untitled.png)
-        
+    
     - Differences of both in a Verbal Manner
         - ***Abstract classes and Interfaces are used to achieve abstraction in Java***
         - ***We cannot instantiate abstract classes and interfaces***
@@ -480,8 +437,6 @@
     - ***IS A relationship (or is a kind of relationship) is required***
     - *reference type is a parent class/interface and object type is child.*
     - Reference type ***decides what can be accessible***. Object type decides to use most specific one.
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2e0866b-d3d5-4402-99e8-83b1d8b471f4/Untitled.png)
         
 - How do we use polymorphism in Automation?
     
@@ -524,9 +479,6 @@
                 - ((ChromeDriver) driver).executeScript();
                 - ((TakesScreenshot) driver).takeScreenShot();
                 - ((JavaScriptExecutor) driver).executeScript();
-            - In a picture, class relations of WebDriver objects
-                
-                ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aba0c00d-1096-4140-9303-53ace0318a11/Untitled.png)
                 
 - Dynamic Binding
     
@@ -534,13 +486,3 @@
     decides which method is invoked at runtime.
     
     - the JVM searches for the implementation of the method in C1, C2, . . . , Cn-1, and Cn, in this order, until it is found. Once an implementation is found, the search stops and the first-found implementation is invoked.
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71401fa7-6af7-43dc-adc9-10e3c452c6a4/Untitled.png)
-        
-    - Types of Polymorphism picture 1
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1222b808-4ba4-469f-94c6-3e7e4c50cd66/Untitled.png)
-        
-    - Types of Polymorphism picture 2
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b718520c-60ae-4f06-b596-973fe92ef9fe/Untitled.png)
