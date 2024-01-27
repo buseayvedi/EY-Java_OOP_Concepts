@@ -94,24 +94,17 @@
     - ***Constructors** cannot be inherited.*
 - What are types of Inheritance?
     - ***Single Inheritance***: Subclasses inherit the features of one superclass.
-
-
         
     - ***Multi-Level Inheritance:*** Subclass will be inheriting a SuperClass and as well as the subclass also act as the SuperClass to the other class.
         
-      
-        
     - ***Hierarchical Inheritance:*** Once class serves as superclass for more than one sub class.
         
-      
-        
     - ***Multiple Inheritance: Does JAVA support within classes? (PIQ)***
-
         - Java DOES NOT support multiple inheritance ***with classes***. One class cannot have more than one superclass. But it can implement more than one interface.
         
         ***java does not support multiple inheritance in case of class, but by using** interface **it can achieve multiple inheritance.***
         
-- Superclass's constructor
+- Superclass's Constructor
     - the ***superclass constructor always executes before the subclass constructor***.
     - The ***super()*** keyword refers to an object’s superclass.
     - If a subclass constructor does not explicitly call a superclass constructor, Java will automatically call the ***superclass’s default constructor, or no-arg constructor***, just before the code in the subclass’s constructor executes.
@@ -155,7 +148,6 @@
     - Private and final method cannot be overridden
     - Protected method can be overridden
 
-    
 - super keyword in Java
     
     The super keyword in java is a reference variable that is used to refer parent class objects. The keyword ***“super”*** is used with the concept of inheritance.
@@ -225,7 +217,6 @@
                 - A static final variable must be initialized, it cannot be blank
                 - But constructors and instance blocks are never called if we don't create an object.
                 - That means, if we don't create an object, this static final variable may not be initialized.
-
 - final arrays and final arrayList
     - We ***can change the elements*** of a final array or final ArrayList without any problem
     - Arrays are objects and object variables are always references in Java. When we declare an object variable as final, it means that the variable cannot be changed to refer to anything else. THIS VARIABLE CAN NOT ***POINT/RE-ASSIGN ANY OTHER OBJECT***.
@@ -235,7 +226,6 @@
 - final class
     - When a class is declared with final keyword, it is called a final class. A final class ***cannot be extended (inherited).***
     - ***You cannot make a class immutable without making it final. (String class)***
-
 
 ## Abstraction
 
@@ -353,7 +343,6 @@
     - Abstract methods must not provide a method body/implementation in the abstract class for which it is declared
     - Implementing an abstract method in a subclass follows the same rules for overriding a method
     - ***Variables cannot be abstract***
-    
 
 ## Interfaces
 
@@ -376,7 +365,8 @@
     - Provide *set of abstract methods (before java 8)*
     - Most interfaces have a group of related empty methods
     - The class provides the behaviors included in the interface
-    
+    - Interface Example
+        
 - ***Can have: (what?)***
     - ***Access modifiers: public***
     - ***Constant Variables: final, static***
@@ -386,7 +376,7 @@
     - ***Access modifiers: private, default, protected***
     - ***Instance variables & methods***
     - ***Final methods***
-    - ***constructor***
+    - ***Constructor***
     - ***Blocks (static or instance)***
 - ***Implicitly have:***
     - ***Fields (variables) : public, static, final***
@@ -394,28 +384,21 @@
     - ***Except static and default methods : abstract***
     - Since all data fields are public static final and all methods are public abstract
     in an interface, Java allows these modifiers to be omitted.
-        
-    
+
 - Creating an Interface
     - An interface looks similar to a class, except the keyword ***interface*** is used instead of the keyword class
-        
         
 - Implementing Multiple Interfaces
     - Class can ***extend*** only one superclass, but java allows a class to implement multiple interfaces.
     - When a class implements multiple interfaces, it must ***provide the methods specified by all of them (all methods have to be overridden.***
     
-    
 - Fields in Interface
     - An interface can contain field declarations, but all fields in an interface are ***treated as public, static and final***.
         
-        
 - Implementing Interface
     - When you want a class to implement an interface, you use the ***implements***
-        
-        
     - A class can ***extends another class and implements interface(s) same time***.
     - If a class both extend a class and implement an interface, extends should come first then implements keyword.
-        
         
 - Default and Static Methods
     - *Beginning in Java 8*, interfaces can have *default* (different than access modifiers) and ***static***
@@ -429,7 +412,7 @@
     - How do you decide whether to use an interface or a class?
         - In general, a strong is-a relationship that clearly describes a parent-child relationship should be modeled using abstract classes.
         - A weak is-a relationship, also known as an is-kind-of relationship, indicates that an object possesses a certain property. A weak is-a relationship can be modeled using interfaces.
-   
+    
     - Differences of both in a Verbal Manner
         - ***Abstract classes and Interfaces are used to achieve abstraction in Java***
         - ***We cannot instantiate abstract classes and interfaces***
@@ -454,7 +437,6 @@
     - ***IS A relationship (or is a kind of relationship) is required***
     - *reference type is a parent class/interface and object type is child.*
     - Reference type ***decides what can be accessible***. Object type decides to use most specific one.
-        
         
 - How do we use polymorphism in Automation?
     
@@ -504,5 +486,3 @@
     decides which method is invoked at runtime.
     
     - the JVM searches for the implementation of the method in C1, C2, . . . , Cn-1, and Cn, in this order, until it is found. Once an implementation is found, the search stops and the first-found implementation is invoked.
-        
-   
